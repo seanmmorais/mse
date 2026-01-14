@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sunGlow" x1="64" y1="24" x2="192" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFB070"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="86" y1="128" x2="170" y2="222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF994C"/>
+      <stop offset="1" stop-color="#FF6B2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="60" fill="#FFFFFF"/>
+  <circle cx="128" cy="96" r="78" fill="url(#sunGlow)"/>
+  <circle cx="128" cy="96" r="62" fill="none" stroke="white" stroke-width="8"/>
+  <circle cx="128" cy="178" r="52" fill="url(#ember)"/>
+  <circle cx="128" cy="178" r="40" fill="none" stroke="white" stroke-width="6"/>
+</svg>
