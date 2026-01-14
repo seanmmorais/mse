@@ -13,8 +13,8 @@
     <meta name="facebook-domain-verification" content="lt37l0dcbq0xs037x48xkqdtkpcbs3" />
   </head>
   <body>
-    <div class="page">
-      <header class="nav">
+    <header class="nav">
+      <div class="nav-inner">
         <div class="brand">
           <img src="assets/logo.svg" alt="Mor Sol Enterprise logo" />
           <div>
@@ -22,13 +22,22 @@
             <small>Tech Consultancy</small>
           </div>
         </div>
-        <nav class="nav-links">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav class="nav-links" id="site-nav">
           <a href="#services">Services</a>
           <a href="#systems">Systems</a>
           <a href="#approach">Approach</a>
           <a href="#contact" class="btn">Start a project</a>
         </nav>
-      </header>
+      </div>
+    </header>
+
+    <div class="page">
 
       <main>
         <section class="hero" id="top">
